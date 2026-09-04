@@ -11,6 +11,13 @@ class Book {
   }
 }
 
+interface Review {
+  bookId: number;
+  rating: number;
+  comment: string;
+}
+
+const reviews: Review[] = [];
 
 function displayBook(book: Book): void {
   const bookList = document.getElementById("book-list");
