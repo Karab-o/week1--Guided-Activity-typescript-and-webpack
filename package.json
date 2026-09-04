@@ -1,0 +1,24 @@
+{
+  "name": "week1--guided-activity-typescript-and-webpack",
+  "version": "1.0.0",
+  "description": "**Instructions:**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karab-o/week1--Guided-Activity-typescript-and-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Karab-o/week1--Guided-Activity-typescript-and-webpack/issues"
+  },
+  "homepage": "https://github.com/Karab-o/week1--Guided-Activity-typescript-and-webpack#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
