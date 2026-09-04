@@ -19,6 +19,16 @@ interface Review {
 
 const reviews: Review[] = [];
 
+function addReview(bookId: number, rating: number, comment: string): void {
+  const review: Review = {
+    bookId: bookId,
+    rating: rating,
+    comment: comment
+  };
+
+  reviews.push(review);
+}
+
 function displayBook(book: Book): void {
   const bookList = document.getElementById("book-list");
   const bookDiv = document.createElement("div");
